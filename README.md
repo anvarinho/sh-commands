@@ -1,6 +1,6 @@
 # Shell Commands
 
-````
+```sh
 # echo "What is your name?"
 # read name
 user=$(whoami)
@@ -13,19 +13,19 @@ sleep 1
 echo "You are looking great $name, now is $date!!!!!"
 sleep 1
 echo "$1, you have a best $comp I've ever seen. You are in $dir directory"
-```sh
+```
 
 ## Open browser
 
-````
+```sh
 
 open -a safari https://www.youtube.com/results?search_query=music
 
-```sh
+```
 
 ### Other commands
 
-```
+```sh
 
 # echo "What is your name?"
 
@@ -64,7 +64,5 @@ echo "You are lucky"
 else
 echo "You died"
 fi
-
-```sh
 
 ```
